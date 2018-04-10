@@ -1,0 +1,30 @@
+#include<iostream.h>
+#include <conio.h>
+#include <math.h>
+void mult(int a,int b)
+{int a,b,c;
+c=a*b;
+return c;}
+void div(int a,int b)
+{int a,b,c;
+c=a/b;
+return c;}
+void add(int a,int b)
+{int a,b,c;
+c=a+b;
+return c;}
+void min(int a,int b)
+{int a,b,c;
+c=a-b;
+return c;}
+void main()
+{int x,y;
+cout<<"enter 2 numbers"
+cin>>x>>y;
+cout<<"following are outcomes"
+cout<<div(x,y)
+cout<<mult(x,y)
+cout<<add(x,y)
+cout<<min(x,y)
+getch();
+}
